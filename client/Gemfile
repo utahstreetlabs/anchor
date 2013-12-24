@@ -1,0 +1,17 @@
+source :rubygems
+
+# use this when packing the library for release.
+gemspec
+
+# use these when you need to work with a development version of a dependency. make sure they match the
+# dependencies listed in the gemspec. this complete manual override is necessary since bundler doesn't yet know how
+# to override a single gemspec entry.
+#gem 'ladon', '~> 0.10.1'
+#gem 'ladon', :path => '../../ladon'
+
+#group :development, :test do
+#  gem 'rake'
+#  gem 'mocha'
+#  gem 'rspec'
+#  gem 'stickler', '>= 2.0'
+#end

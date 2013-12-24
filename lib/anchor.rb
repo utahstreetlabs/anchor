@@ -1,0 +1,1 @@
+require 'anchor/version'
